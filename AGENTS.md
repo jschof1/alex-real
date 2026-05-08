@@ -1,5 +1,9 @@
 In any instance where you learn something more about the project and understand where we're at, make sure to always take a note of it and add it to the agents.md so that anytime there's a new chat it understands the context of where things are.
 
+## Repository
+
+- Remote: [github.com/jschof1/alex-real](https://github.com/jschof1/alex-real), default branch `main`. `.cursor/` is gitignored (local IDE state only).
+
 ## Section top accent
 
 - Full-width bands use a **4px brand-ruby top stripe** via `SECTION_TOP_ACCENT` in `src/constants/sectionAccent.js` (`border-t-4 border-t-[var(--ruby)]`). Applied in `SectionShell`, `PageHero`, homepage hero + gallery + fees `<section>`s, every major `<section>` on inner pages, each service `<article>` on Services, and the `NotFound` `<main>`.
