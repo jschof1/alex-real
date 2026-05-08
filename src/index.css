@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Site-wide body-copy bump: 16px → 17px so every rem-based Tailwind text
+   utility (text-sm / text-base / text-lg etc.) reads slightly larger. */
+html {
+  font-size: 17px;
+}
+
+:root {
+  --navy: #0c1a2e;
+  --navy-soft: #152a45;
+  --navy-deep: #070f1c;
+  --burgundy: #8b1538;
+  --burgundy-soft: #a61d45;
+  /* Brighter “red” accent for borders and CTAs alongside wine burgundy */
+  --ruby: #b91c3c;
+  --gold: #c9a227;
+  --surface: #f4f6fa;
+  --surface-warm: #eef1f7;
+  --ink: #0f172a;
+  --muted: #5c6578;
+}
+
+body {
+  margin: 0;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+::selection {
+  background: rgba(201, 162, 39, 0.35);
+  color: var(--navy);
+}
