@@ -9,13 +9,16 @@ export default function ImagePlaceholder({
   alt,
   imgClassName = "",
 }) {
+  const hasObjectFit =
+    /\bobject-(contain|cover|fill|none|scale-down)\b/.test(imgClassName);
+
   if (src) {
     return (
       <div className={`relative h-full min-h-[10rem] w-full overflow-hidden bg-black/5 ${className}`}>
         <img
           src={src}
           alt={alt ?? label}
-          className={`absolute inset-0 h-full w-full ${imgClassName.includes('object-') ? '' : 'object-cover'} ${imgClassName}`.trim()}
+          className={`absolute inset-0 h-full w-full ${hasObjectFit ? '' : 'object-cover'} ${imgClassName}`.trim()}
           loading="lazy"
           decoding="async"
         />

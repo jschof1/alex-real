@@ -22,3 +22,7 @@ In any instance where you learn something more about the project and understand 
 ## Image mapping
 
 - Home gallery tile **Alex at work** (`ALEX_GALLERY` id `work`) uses the real photo at `/images/alex/alex-07.jpg` via `GALLERY_IMAGE_BY_ID.work` in `src/data/siteImages.js` (not the AI `process-delivery` webp pool).
+
+## ImagePlaceholder
+
+- Real `src` images default to **`object-cover`** unless `imgClassName` includes an object-**fit** utility (`object-contain`, `object-cover`, `object-fill`, `object-none`, `object-scale-down`). Position-only classes like `object-top` or arbitrary `object-[center_30%]` do **not** suppress the default, otherwise the browser uses `fill` and stretches the photo.
