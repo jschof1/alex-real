@@ -9,7 +9,6 @@ export default function FeesPage() {
     <main>
       <PageHero>
         <PageHeader align="center" eyebrow="Fees" title="Clear pricing, agreed in advance" subtitle={FEES.intro[0]} tone="navy" />
-        <p className="mt-4 max-w-3xl text-base leading-relaxed text-white/78">{FEES.intro[1]}</p>
       </PageHero>
 
       <section
