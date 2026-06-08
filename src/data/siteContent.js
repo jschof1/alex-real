@@ -21,7 +21,7 @@ export const SITE = {
   phoneDisplay: "07572 036962",
   phoneHref: "tel:+447572036962",
   location: "South East England",
-  areas: "Kent, Sussex, Surrey, and beyond",
+  areas: "Kent, Sussex, Surrey and beyond",
   instagramHandle: "@alexjealcelebrant",
   instagramUrl: "https://www.instagram.com/alexjealcelebrant/",
 };
@@ -39,7 +39,7 @@ export const NAV_LINKS = [
 ];
 
 const baseDesc =
-  "Independent celebrant and wedding DJ for weddings, vow renewals, funerals, naming ceremonies, and DJ hire across Kent, Sussex, and Surrey.";
+  "Independent celebrant and wedding DJ for weddings, vow renewals, funerals, naming ceremonies and DJ hire across Kent, Sussex and Surrey.";
 
 /** Browser tab title + meta description per path (SPA). */
 export const ROUTE_META = {
@@ -56,14 +56,14 @@ export const ROUTE_META = {
 
 export const ABOUT = {
   intro: [
-    "Hi, I'm Alex Jeal, an independent celebrant and wedding DJ based in the South East. I specialise in personalised wedding ceremonies, vow renewals, funerals and baby naming ceremonies, all delivered with a fresh approach that puts people, personality, and real connections at the heart of every service.",
+    "Hi, I'm Alex Jeal, an independent celebrant and wedding DJ based in the South East. I specialise in personalised wedding ceremonies, vow renewals, funerals and baby naming ceremonies, all delivered with a fresh approach that puts people, personality and real connections at the heart of every service.",
     "I work with countryside barns, private homes, outdoor spaces and both licensed and non-licensed locations. No matter the setting, my focus is always on creating a ceremony that feels genuine, relaxed, traditional or contemporary but most importantly, truly personal.",
     "Much of my career has been spent working with people, planning events and delivering bespoke experiences. That background shapes the way I work as a professional celebrant, calm under pressure, well organised and approachable.",
   ],
   whyTitle: "Why Choose me as your Celebrant?",
   why: [
-    "As an independent celebrant, I'm not restricted by traditional formats, scripts, or expectations. Every ceremony I create is written from scratch and tailored to you.",
-    "I'm with you every step of the way, from our first conversation to the day of the ceremony itself. I'm always just a phone call or message away if you need guidance, reassurance, or any last minute changes.",
+    "As an independent celebrant, I'm not restricted by traditional formats, scripts or expectations. Every ceremony I create is written from scratch and tailored to you.",
+    "I'm with you every step of the way, from our first conversation to the day of the ceremony itself. I'm always just a phone call or message away if you need guidance, reassurance or any last minute changes.",
     "I trained with the Academy of Professional Celebrants, gaining the skills and confidence to deliver professional, heartfelt ceremonies across the South East.",
     "Please note, my role is to focus on your story and the heart of your ceremony. As a symbolic celebrant, I do not handle the legal paperwork; most couples choose to visit the registry office a few days before or after the ceremony to sign the official marriage license.",
   ],
@@ -77,32 +77,32 @@ export const SERVICES = [
       "Ceremonies designed entirely around you and your story, from barns and gardens to beaches and woodland.",
     body: [
       "I create wedding ceremonies designed entirely around you and your story. Whether you're planning something traditional or modern, formal or laidback or something full of symbolic rituals and cultural traditions, I'll work closely with you to bring your ideas to life.",
-      "I am not tied to any set scripts or religious requirements, therefore your wedding ceremony can take place anywhere from barns and gardens to private estates, beaches, and woodland settings.",
+      "I am not tied to any set scripts or religious requirements, therefore your wedding ceremony can take place anywhere from barns and gardens to private estates, beaches and woodland settings.",
     ],
   },
   {
     slug: "vow-renewals",
     title: "Vow Renewals",
-    summary: "Milestone anniversaries, new chapters, or simply reaffirming your commitment to each other.",
+    summary: "Milestone anniversaries, new chapters or simply reaffirming your commitment to each other.",
     body: [
-      "I also offer vow renewal ceremonies for couples celebrating milestone anniversaries, new chapters, or simply reaffirming their commitment to each other. I create deeply personal ceremonies that honour your shared journey and look ahead to the future.",
+      "I also offer vow renewal ceremonies for couples celebrating milestone anniversaries, new chapters or simply reaffirming their commitment to each other. I create deeply personal ceremonies that honour your shared journey and look ahead to the future.",
     ],
   },
   {
     slug: "funerals",
     title: "Funerals & Celebrations of Life",
-    summary: "Personalised ceremonies with compassion, care, and respect for the person being remembered.",
+    summary: "Personalised ceremonies with compassion, care and respect for the person being remembered.",
     body: [
-      "I deliver personalised funeral ceremonies and celebrations of life with compassion, care, and respect. I ensure each ceremony reflects the individual being remembered; their character, values, stories, and the legacy they leave behind.",
-      "I work closely with the family and funeral directors to create ceremonies that feel comforting, sincere, and truly representative of a life lived.",
+      "I deliver personalised funeral ceremonies and celebrations of life with compassion, care and respect. I ensure each ceremony reflects the individual being remembered; their character, values, stories and the legacy they leave behind.",
+      "I work closely with the family and funeral directors to create ceremonies that feel comforting, sincere and truly representative of a life lived.",
     ],
   },
   {
     slug: "naming",
     title: "Baby Naming Ceremonies",
-    summary: "Joyful, inclusive welcomes for new babies, adoptions, or blended families.",
+    summary: "Joyful, inclusive welcomes for new babies, adoptions or blended families.",
     body: [
-      "I create joyful, inclusive naming ceremonies to celebrate your child and your family. Whether you're welcoming a new baby, celebrating an adoption, or marking a blended family, I will design a ceremony filled with love and special moments.",
+      "I create joyful, inclusive naming ceremonies to celebrate your child and your family. Whether you're welcoming a new baby, celebrating an adoption or marking a blended family, I will design a ceremony filled with love and special moments.",
     ],
   },
   {
@@ -111,7 +111,7 @@ export const SERVICES = [
     summary: "Music for weddings and special events, planned collaboratively around your tastes.",
     body: [
       "With experience in DJing and music production, I offer DJ services for weddings and special events. Music selections are planned collaboratively, taking into account your tastes and overall atmosphere you'd like to create.",
-      "I provide an enjoyable and memorable musical experience. All performances are subject to venue requirements, technical conditions, and prior agreement of playlists, timings and equipment needs.",
+      "I provide an enjoyable and memorable musical experience. All performances are subject to venue requirements, technical conditions and prior agreement of playlists, timings and equipment needs.",
     ],
   },
 ];
@@ -119,7 +119,7 @@ export const SERVICES = [
 export const PROCESS_STEPS = [
   "We start with an initial consultation in person or online, so I can hear what matters most to you.",
   "You have unlimited communication by phone, email or message while we shape the ceremony together.",
-  "I write a fully bespoke ceremony, with guidance on wording, music, readings, rituals, and structure.",
+  "I write a fully bespoke ceremony, with guidance on wording, music, readings, rituals and structure.",
   "Where needed, I liaise with your venue or other suppliers so delivery on the day feels seamless.",
   "You receive a polished script with time to reflect, then I deliver your ceremony with calm confidence on the day.",
 ];
@@ -137,7 +137,7 @@ export const INCLUDED = [
   "An initial consultation (in person or online)",
   "Unlimited communication via phone, email or message",
   "A fully bespoke ceremony written just for you",
-  "Guidance with wording, music, readings, rituals, and structure",
+  "Guidance with wording, music, readings, rituals and structure",
   "Professional delivery of your ceremony on the day",
   "Liaison with venues or other suppliers if required",
 ];
@@ -192,15 +192,15 @@ export const FAQ_GROUPS = [
     items: [
       [
         "Can a celebrant legally marry us?",
-        "The legal paperwork is normally completed separately at a registry office. I focus on your symbolic ceremony, written around your story, values, and choices.",
+        "The legal paperwork is normally completed separately at a registry office. I focus on your symbolic ceremony, written around your story, values and choices.",
       ],
       [
         "Where can we hold our wedding or naming ceremony?",
-        "Subject to permission and practicalities, ceremonies can take place in barns, gardens, private homes, woodland, beaches, and many other meaningful locations.",
+        "Subject to permission and practicalities, ceremonies can take place in barns, gardens, private homes, woodland, beaches and many other meaningful locations.",
       ],
       [
         "Do you only offer non-religious ceremonies?",
-        "I work in a flexible, inclusive way. We can weave in readings, rituals, and cultural touches that feel right for you, without being tied to a single template.",
+        "I work in a flexible, inclusive way. We can weave in readings, rituals and cultural touches that feel right for you, without being tied to a single template.",
       ],
     ],
   },
@@ -209,15 +209,15 @@ export const FAQ_GROUPS = [
     items: [
       [
         "How much can we change the script?",
-        "Your ceremony is built for you. We refine wording together so it sounds like your voice, your humour, and your promises.",
+        "Your ceremony is built for you. We refine wording together so it sounds like your voice, your humour and your promises.",
       ],
       [
         "What if we want music and a DJ on the same day?",
-        "Many couples book ceremony and DJ hire together. Packages are listed on the Fees page, and we confirm playlists, timings, and equipment in advance.",
+        "Many couples book ceremony and DJ hire together. Packages are listed on the Fees page and we confirm playlists, timings and equipment in advance.",
       ],
       [
         "Which areas do you cover?",
-        "Kent, Sussex, and Surrey are included in my standard travel. Further afield is agreed during your enquiry.",
+        "Kent, Sussex and Surrey are included in my standard travel. Further afield is agreed during your enquiry.",
       ],
     ],
   },
@@ -226,11 +226,11 @@ export const FAQ_GROUPS = [
     items: [
       [
         "Can family members take part in a funeral ceremony?",
-        "Yes. We can structure contributions, readings, and music so everyone who wishes to speak feels supported.",
+        "Yes. We can structure contributions, readings and music so everyone who wishes to speak feels supported.",
       ],
       [
         "Do you work with funeral directors?",
-        "Yes. I collaborate closely with families and funeral directors so the tone, timing, and content feel coherent and comforting.",
+        "Yes. I collaborate closely with families and funeral directors so the tone, timing and content feel coherent and comforting.",
       ],
     ],
   },
@@ -239,7 +239,7 @@ export const FAQ_GROUPS = [
 export const LINKS = [
   {
     label: "Instagram",
-    description: "Follow for updates, behind the scenes moments, and inspiration.",
+    description: "Follow for updates, behind the scenes moments and inspiration.",
     href: SITE.instagramUrl,
   },
   {
@@ -253,11 +253,11 @@ export const TERMS_SECTIONS = [
   {
     title: "Disclaimer",
     paragraphs: [
-      "All celebrant services provided are non-religious, non-legal, and symbolic in nature and do not constitute a legally binding ceremony. Wedding ceremonies conducted by an independent celebrant do not replace the requirement for a legally recognised marriage.",
-      "All ceremonies, rituals, readings, music selections, and performances are agreed in advance and delivered based on the information provided by the client. Services remain subject to venue regulations, safety considerations, licensing requirements, sound restrictions, and curfews imposed by third parties.",
-      "While every reasonable effort is made to deliver services as planned, this cannot always be guaranteed due to circumstances beyond reasonable control, including but not limited to, power failure, technical or equipment issues, venue restrictions, adverse conditions, or unforeseen emergency situations.",
-      "No liability is accepted for interruptions, limitations or changes resulting from the behaviour of guests, venue staff decisions, or third party actions.",
-      "Final details and preferences must be confirmed in advance to ensure suitability, compliance, and smooth delivery of services.",
+      "All celebrant services provided are non-religious, non-legal and symbolic in nature and do not constitute a legally binding ceremony. Wedding ceremonies conducted by an independent celebrant do not replace the requirement for a legally recognised marriage.",
+      "All ceremonies, rituals, readings, music selections and performances are agreed in advance and delivered based on the information provided by the client. Services remain subject to venue regulations, safety considerations, licensing requirements, sound restrictions and curfews imposed by third parties.",
+      "While every reasonable effort is made to deliver services as planned, this cannot always be guaranteed due to circumstances beyond reasonable control, including but not limited to, power failure, technical or equipment issues, venue restrictions, adverse conditions or unforeseen emergency situations.",
+      "No liability is accepted for interruptions, limitations or changes resulting from the behaviour of guests, venue staff decisions or third party actions.",
+      "Final details and preferences must be confirmed in advance to ensure suitability, compliance and smooth delivery of services.",
     ],
   },
   {
@@ -307,7 +307,7 @@ export const TERMS_SECTIONS = [
   {
     title: "7. Liability",
     bullets: [
-      "The Celebrant's total liability for any claim shall be limited to the total fee paid by the Client. The Celebrant is not liable for delays caused by the venue, other vendors, or the late arrival of the Client or guests.",
+      "The Celebrant's total liability for any claim shall be limited to the total fee paid by the Client. The Celebrant is not liable for delays caused by the venue, other vendors or the late arrival of the Client or guests.",
     ],
   },
 ];

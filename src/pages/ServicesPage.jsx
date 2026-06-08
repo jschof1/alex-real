@@ -20,8 +20,8 @@ export default function ServicesPage() {
           align="center"
           tone="navy"
           eyebrow="Services"
-          title="Ceremonies and music, tailored to you"
-          subtitle="Every service is written from scratch. Nothing is copied from a template, and nothing is imposed that does not feel right for you."
+          title="Ceremonies and music tailored to you"
+          subtitle="Every service is written from scratch. Nothing is copied from a template and nothing is imposed that does not feel right for you."
         />
       </PageHero>
 

@@ -28,7 +28,7 @@ export default function NotFound() {
           align="center"
           eyebrow="404"
           title="This page could not be found"
-          subtitle="The link may be out of date, or the page may have moved."
+          subtitle="The link may be out of date or the page may have moved."
         />
         <div className="nf-pop px-4 pb-10 text-center">
           <Link

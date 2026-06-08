@@ -125,7 +125,7 @@ export default function HomePage() {
             </div>
             <div className="absolute -bottom-4 -left-2 max-w-xs rounded-xl border border-white/15 bg-[var(--navy-soft)]/95 p-4 text-sm text-white/85 shadow-xl backdrop-blur md:-left-6">
               <p className="font-serif text-lg text-white">Independent celebrant and wedding DJ</p>
-              <p className="mt-1 text-xs text-white/70">Kent, Sussex, Surrey, and beyond</p>
+              <p className="mt-1 text-xs text-white/70">Kent, Sussex, Surrey and beyond</p>
             </div>
           </div>
         </div>
@@ -178,7 +178,7 @@ export default function HomePage() {
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--ruby)]">What I offer</p>
             <h2 className="mt-2 font-serif text-3xl text-[var(--navy)] md:text-4xl">Ceremonies and celebrations for every chapter</h2>
             <p className="mt-4 text-[var(--muted)] leading-relaxed">
-              From weddings and vow renewals to funerals, naming days, and DJ hire, everything is built around your story and your pace.
+              From weddings and vow renewals to funerals, naming days and DJ hire, everything is built around your story and your pace.
             </p>
           </div>
           <div className="mt-12 flex flex-wrap gap-5">
@@ -291,7 +291,7 @@ export default function HomePage() {
           <div data-reveal>
             <h2 className="font-serif text-2xl text-white md:text-3xl">Ready to talk through your plans?</h2>
             <p className="mt-2 text-sm text-white/85">
-              Share your date, location, and the kind of ceremony you are imagining. I will come back with clear next steps.
+              Share your date, location and the kind of ceremony you are imagining. I will come back with clear next steps.
             </p>
           </div>
           <div className="flex flex-wrap gap-3" data-reveal>

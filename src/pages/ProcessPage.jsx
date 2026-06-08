@@ -17,7 +17,7 @@ export default function ProcessPage() {
           align="center"
           tone="navy"
           eyebrow="How it works"
-          title="From first conversation to the moment you walk down the aisle, scatter ashes, or welcome a child"
+          title="From first conversation to the moment you walk down the aisle, scatter ashes or welcome a child"
           subtitle="You do not need every answer on day one. I will guide the process, keep things organised and support the planning."
         />
       </PageHero>

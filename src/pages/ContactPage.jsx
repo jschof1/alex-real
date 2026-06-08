@@ -89,7 +89,7 @@ export default function ContactPage() {
                 onChange={(e) => setBody(e.target.value)}
                 rows={6}
                 className="mt-2 w-full resize-y rounded-xl border border-black/10 px-4 py-3 text-[var(--ink)] outline-none ring-[var(--burgundy)] focus:ring-2"
-                placeholder="Ceremony type, location, dates, and anything you would like me to know…"
+                placeholder="Ceremony type, location, dates and anything you would like me to know…"
               />
             </label>
             <a

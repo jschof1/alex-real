@@ -90,7 +90,7 @@ export default function Footer() {
             </p>
           </div>
           <p className="text-center text-[10px] leading-relaxed text-white/35 md:text-left">
-            Neutral header textures on FAQ, fees, terms, and the 404 page are from{" "}
+            Neutral header textures on FAQ, fees, terms and the 404 page are from{" "}
             <a href="https://unsplash.com/license" target="_blank" rel="noopener noreferrer" className="underline hover:text-white/50">
               Unsplash
             </a>
