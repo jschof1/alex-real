@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Alex Jeal Celebrant Brochure</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+
+      :root {
+        --page-width: 303mm;
+        --page-height: 216mm;
+        --bleed: 3mm;
+        --trim-width: 297mm;
+        --trim-height: 210mm;
+        --panel-left-narrow: 97mm;
+        --panel-centre: 99mm;
+        --panel-right-wide: 101mm;
+        --panel-left-narrow-bleed: calc(var(--panel-left-narrow) + var(--bleed));
+        --panel-right-wide-bleed: calc(var(--panel-right-wide) + var(--bleed));
+        --navy: #0c1a2e;
+        --navy-soft: #152a45;
+        --navy-deep: #070f1c;
+        --burgundy: #8b1538;
+        --ruby: #b91c3c;
+        --gold: #c9a227;
+        --surface: #f4f6fa;
+        --surface-warm: #eef1f7;
+        --ink: #0f172a;
+        --muted: #5c6578;
+      }
+
+      @page {
+        size: 303mm 216mm;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        width: var(--page-width);
+        background: white;
+        color: var(--ink);
+        font-family: Inter, Arial, sans-serif;
+      }
+
+      .brochure-page {
+        display: grid;
+        width: var(--page-width);
+        height: var(--page-height);
+        page-break-after: always;
+        break-after: page;
+        overflow: hidden;
+        background: var(--surface);
+      }
+
+      .brochure-page-outside {
+        grid-template-columns:
+          var(--panel-left-narrow-bleed)
+          var(--panel-centre)
+          var(--panel-right-wide-bleed);
+      }
+
+      .brochure-page-inside {
+        grid-template-columns:
+          var(--panel-right-wide-bleed)
+          var(--panel-centre)
+          var(--panel-left-narrow-bleed);
+      }
+
+      .panel {
+        position: relative;
+        min-width: 0;
+        height: var(--page-height);
+        padding-top: 14mm;
+        padding-bottom: 14mm;
+      }
+
+      .outside-left,
+      .inside-left {
+        padding-left: 11mm;
+        padding-right: 8mm;
+      }
+
+      .outside-centre,
+      .inside-centre {
+        padding-left: 9mm;
+        padding-right: 9mm;
+      }
+
+      .outside-right,
+      .inside-right {
+        padding-left: 8mm;
+        padding-right: 11mm;
+      }
+
+      .navy {
+        background: var(--navy);
+        color: white;
+      }
+
+      .cream {
+        background: var(--surface);
+      }
+
+      .warm {
+        background: var(--surface-warm);
+      }
+
+      .ruby {
+        background: var(--burgundy);
+        color: white;
+      }
+
+      .brand-stripe {
+        border-top: 4px solid var(--ruby);
+      }
+
+      .logo {
+        width: 49mm;
+        height: auto;
+        display: block;
+      }
+
+      .logo-plate {
+        display: inline-block;
+        padding: 4mm 5mm;
+        background: rgba(255, 255, 255, 0.96);
+        border: 0.35mm solid rgba(12, 26, 46, 0.16);
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 0;
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-weight: 600;
+        line-height: 0.96;
+        letter-spacing: 0;
+      }
+
+      h1 {
+        margin-top: 9mm;
+        font-size: 31pt;
+        color: white;
+      }
+
+      h2 {
+        font-size: 23pt;
+        color: var(--navy);
+      }
+
+      .navy h2,
+      .ruby h2 {
+        color: white;
+      }
+
+      h3 {
+        font-size: 13pt;
+        color: var(--navy);
+      }
+
+      p {
+        margin: 0;
+        font-size: 8.2pt;
+        line-height: 1.45;
+      }
+
+      .lede {
+        margin-top: 6mm;
+        font-size: 10.1pt;
+        line-height: 1.45;
+      }
+
+      .small {
+        font-size: 7.2pt;
+        line-height: 1.35;
+      }
+
+      .eyebrow {
+        margin-bottom: 4mm;
+        color: var(--gold);
+        font-size: 6.7pt;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      .rule {
+        width: 18mm;
+        height: 0.35mm;
+        margin: 5mm 0;
+        background: var(--gold);
+      }
+
+      .image-frame {
+        width: 100%;
+        overflow: hidden;
+        border: 0.35mm solid rgba(12, 26, 46, 0.14);
+      }
+
+      .image-frame img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .cover-image {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .cover-content {
+        position: relative;
+        z-index: 1;
+        height: 100%;
+        padding: 14mm 11mm 13mm 8mm;
+        background: linear-gradient(180deg, rgba(7, 15, 28, 0.22), rgba(7, 15, 28, 0.82));
+        color: white;
+      }
+
+      .cover-bottom {
+        position: absolute;
+        right: 11mm;
+        bottom: 13mm;
+        left: 8mm;
+      }
+
+      .tagline {
+        margin-top: 5mm;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 10pt;
+      }
+
+      .services-line {
+        margin-top: 8mm;
+        padding-top: 4mm;
+        border-top: 0.35mm solid rgba(201, 162, 39, 0.72);
+        color: rgba(255, 255, 255, 0.92);
+      }
+
+      .contact-list {
+        display: grid;
+        gap: 2.5mm;
+        margin-top: 7mm;
+      }
+
+      .contact-item b {
+        display: block;
+        color: var(--navy);
+        font-size: 6.2pt;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .contact-item span {
+        display: block;
+        margin-top: 0.8mm;
+        color: var(--burgundy);
+        font-size: 8.4pt;
+        font-weight: 700;
+      }
+
+      .qr-row {
+        display: grid;
+        grid-template-columns: 25mm 1fr;
+        gap: 4mm;
+        align-items: center;
+        margin-top: 7mm;
+        padding: 4mm;
+        background: white;
+        border: 0.35mm solid rgba(12, 26, 46, 0.12);
+      }
+
+      .qr-row img {
+        width: 25mm;
+        height: 25mm;
+      }
+
+      .badge-row {
+        display: grid;
+        grid-template-columns: 19mm 1fr;
+        gap: 4mm;
+        align-items: center;
+        margin-top: 5mm;
+      }
+
+      .badge-row img {
+        width: 19mm;
+        height: auto;
+      }
+
+      .portrait {
+        height: 74mm;
+        margin: 6mm 0 5mm;
+      }
+
+      .service-list {
+        display: grid;
+        gap: 3mm;
+        margin-top: 6mm;
+      }
+
+      .service {
+        display: grid;
+        grid-template-columns: 18mm 1fr;
+        gap: 3mm;
+        align-items: start;
+        padding-bottom: 2.5mm;
+        border-bottom: 0.25mm solid rgba(12, 26, 46, 0.12);
+      }
+
+      .service .thumb {
+        height: 15mm;
+      }
+
+      .service p {
+        margin-top: 1mm;
+        color: var(--muted);
+        font-size: 6.7pt;
+        line-height: 1.28;
+      }
+
+      .checklist {
+        display: grid;
+        gap: 3mm;
+        margin-top: 6mm;
+      }
+
+      .check {
+        padding-left: 3.5mm;
+        border-left: 0.65mm solid var(--gold);
+      }
+
+      .check p {
+        font-size: 7.4pt;
+      }
+
+      .booking {
+        margin-top: 7mm;
+        padding: 5mm;
+        background: white;
+        border: 0.35mm solid rgba(139, 21, 56, 0.2);
+      }
+
+      .booking h3 {
+        color: var(--burgundy);
+      }
+
+      .quote {
+        margin-top: 7mm;
+        padding: 5mm;
+        background: rgba(201, 162, 39, 0.15);
+        border-left: 0.8mm solid var(--gold);
+        color: var(--navy);
+      }
+
+      .front-mark {
+        position: absolute;
+        right: 11mm;
+        bottom: 13mm;
+        color: rgba(255, 255, 255, 0.72);
+        font-size: 6.4pt;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="brochure-page brochure-page-outside">
+      <article class="panel outside-left warm brand-stripe">
+        <p class="eyebrow">Fold-in flap</p>
+        <h2>Beautiful, personal ceremonies</h2>
+        <div class="rule"></div>
+        <p class="lede">Hi, I'm Alex Jeal, an independent celebrant and wedding DJ based in the South East. I specialise in personalised wedding ceremonies, vow renewals, funerals and baby naming ceremonies, all delivered with a fresh approach.</p>
+        <div class="quote">
+          <p>Ceremonies with personality, warmth and a fresh approach.</p>
+        </div>
+        <div class="image-frame" style="height: 58mm; margin-top: 7mm;">
+          <img src="../public/images/photo/evening-candles.webp" alt="" />
+        </div>
+      </article>
+
+      <article class="panel outside-centre cream brand-stripe">
+        <span class="logo-plate"><img class="logo" src="../public/images/alex-jeal-logo.png" alt="Alex Jeal Celebrant" /></span>
+        <div class="contact-list">
+          <div class="contact-item"><b>Phone</b><span>07572 036962</span></div>
+          <div class="contact-item"><b>Email</b><span>alexjealcelebrant@gmail.com</span></div>
+          <div class="contact-item"><b>Web</b><span>alexjealcelebrant.com</span></div>
+          <div class="contact-item"><b>Instagram</b><span>@alexjealcelebrant</span></div>
+          <div class="contact-item"><b>Area</b><span>Kent, Sussex, Surrey, and beyond</span></div>
+        </div>
+        <div class="qr-row">
+          <img src="alex-jeal-qr.svg" alt="QR code for Alex Jeal Celebrant website" />
+          <p class="small"><b>Scan to visit</b><br />Browse services, fees, FAQs, and direct contact details online.</p>
+        </div>
+        <div class="badge-row">
+          <img src="../src/assets/apc-certified-celebrant-seal.png" alt="APC certified celebrant seal" />
+          <p class="small"><b>Fully accredited · Fully insured</b><br />Trained with the Academy of Professional Celebrants.</p>
+        </div>
+      </article>
+
+      <article class="panel outside-right navy">
+        <img class="cover-image" src="../public/images/photo/hero-barn-ceremony.webp" alt="" />
+        <div class="cover-content brand-stripe">
+          <span class="logo-plate"><img class="logo" src="../public/images/alex-jeal-logo.png" alt="Alex Jeal Celebrant" /></span>
+          <div class="cover-bottom">
+            <p class="eyebrow">Independent celebrant and wedding DJ</p>
+            <h1>Alex Jeal Celebrant</h1>
+            <p class="tagline">Personal ceremonies and music for weddings, vow renewals, funerals, naming days, and special events across the South East.</p>
+            <p class="services-line small">Wedding ceremonies · Vow renewals · Funerals · Naming ceremonies · DJ hire</p>
+          </div>
+          <div class="front-mark">Front cover</div>
+        </div>
+      </article>
+    </section>
+
+    <section class="brochure-page brochure-page-inside">
+      <article class="panel inside-left navy brand-stripe">
+        <p class="eyebrow">Meet Alex</p>
+        <h2>Warm, calm, and organised</h2>
+        <div class="image-frame portrait">
+          <img src="../public/images/alex/alex-01.jpg" alt="" />
+        </div>
+        <p>Much of my career has been spent working with people, planning events and delivering bespoke experiences. That background shapes the way I work as a professional celebrant, calm under pressure, well organised and approachable.</p>
+        <div class="quote">
+          <p>Every ceremony is written from scratch and tailored to you.</p>
+        </div>
+      </article>
+
+      <article class="panel inside-centre cream brand-stripe">
+        <p class="eyebrow">Ceremonies with Alex</p>
+        <h2>Services</h2>
+        <div class="service-list">
+          <div class="service">
+            <div class="image-frame thumb"><img src="../public/images/photo/wedding-woodland.webp" alt="" /></div>
+            <div><h3>Wedding ceremonies</h3><p>Personalised celebrant-led wedding ceremonies written from scratch, tailored to the couple, their setting and the atmosphere they want to create.</p></div>
+          </div>
+          <div class="service">
+            <div class="image-frame thumb"><img src="../public/images/photo/vow-coast.webp" alt="" /></div>
+            <div><h3>Vow renewals and anniversaries</h3><p>Fresh, personal ceremonies for couples marking a renewal of vows, an anniversary or another meaningful relationship milestone.</p></div>
+          </div>
+          <div class="service">
+            <div class="image-frame thumb"><img src="../public/images/photo/funeral-detail.webp" alt="" /></div>
+            <div><h3>Funerals and celebrations of life</h3><p>Warm, respectful ceremonies shaped around the person, their story and the people who loved them.</p></div>
+          </div>
+          <div class="service">
+            <div class="image-frame thumb"><img src="../public/images/photo/naming-park.webp" alt="" /></div>
+            <div><h3>Naming ceremonies</h3><p>Baby naming and family welcome ceremonies designed for relaxed, personal celebrations at home, outdoors, in gardens or chosen venues.</p></div>
+          </div>
+          <div class="service">
+            <div class="image-frame thumb"><img src="../public/images/photo/dj-marquee.webp" alt="" /></div>
+            <div><h3>DJ hire</h3><p>Wedding DJ and evening reception support, bringing my events experience into the celebration beyond the ceremony itself.</p></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="panel inside-right warm brand-stripe">
+        <p class="eyebrow">What to expect</p>
+        <h2>Guided from day one</h2>
+        <div class="checklist">
+          <div class="check"><p>Every ceremony is written from scratch and tailored to you.</p></div>
+          <div class="check"><p>I work with countryside barns, private homes, outdoor spaces and both licensed and non-licensed locations.</p></div>
+          <div class="check"><p>The process is guided from first conversation to the ceremony itself, with room for reflection and edits.</p></div>
+          <div class="check"><p>The style can be relaxed, traditional or contemporary, but the focus is always on creating something genuine and personal.</p></div>
+          <div class="check"><p>You do not need every answer on day one. I will guide the process, keep things organised and support the planning.</p></div>
+        </div>
+        <div class="booking">
+          <h3>Booking</h3>
+          <p style="margin-top: 2mm;">Share your ceremony type, preferred dates if you have them and the county or venue area. I will respond as soon as possible. A signed copy of the terms together with your deposit secures the date.</p>
+        </div>
+        <div class="image-frame" style="height: 32mm; margin-top: 6mm;">
+          <img src="../public/images/photo/process-delivery-libby.jpeg" alt="" />
+        </div>
+      </article>
+    </section>
+  </body>
+</html>

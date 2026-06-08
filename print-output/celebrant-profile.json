@@ -1,0 +1,149 @@
+{
+  "clientName": "Alex Jeal",
+  "businessName": "Alex Jeal Celebrant",
+  "role": "Independent celebrant and wedding DJ",
+  "tagline": "Ceremonies with personality, warmth and a fresh approach.",
+  "phone": "07572 036962",
+  "email": "alexjealcelebrant@gmail.com",
+  "website": "alexjealcelebrant.com",
+  "area": "South East England; Kent, Sussex, Surrey, and beyond",
+  "instagram": "@alexjealcelebrant",
+  "services": [
+    {
+      "title": "Wedding ceremonies",
+      "description": "Personalised celebrant-led wedding ceremonies written from scratch, tailored to the couple, their setting and the atmosphere they want to create."
+    },
+    {
+      "title": "Vow renewals and anniversaries",
+      "description": "Fresh, personal ceremonies for couples marking a renewal of vows, an anniversary or another meaningful relationship milestone."
+    },
+    {
+      "title": "Funerals and celebrations of life",
+      "description": "Warm, respectful funeral and celebration of life ceremonies shaped around the person, their story and the people who loved them."
+    },
+    {
+      "title": "Naming ceremonies",
+      "description": "Baby naming and family welcome ceremonies designed for relaxed, personal celebrations at home, outdoors, in gardens or in chosen venues."
+    },
+    {
+      "title": "DJ hire",
+      "description": "Wedding DJ and evening reception support, bringing my events experience into the celebration beyond the ceremony itself."
+    }
+  ],
+  "keyCopy": {
+    "intro": "Hi, I'm Alex Jeal, an independent celebrant and wedding DJ based in the South East. I specialise in personalised wedding ceremonies, vow renewals, funerals and baby naming ceremonies, all delivered with a fresh approach that puts people, personality, and real connections at the heart of every service.",
+    "meet": "Much of my career has been spent working with people, planning events and delivering bespoke experiences. That background shapes the way I work as a professional celebrant, calm under pressure, well organised and approachable.",
+    "expect": [
+      "Every ceremony is written from scratch and tailored to you.",
+      "I work with countryside barns, private homes, outdoor spaces and both licensed and non-licensed locations.",
+      "The process is guided from first conversation to the ceremony itself, with room for reflection and edits.",
+      "The style can be relaxed, traditional or contemporary, but the focus is always on creating something genuine and personal.",
+      "You do not need every answer on day one. I will guide the process, keep things organised and support the planning."
+    ],
+    "booking": "Share your ceremony type, preferred dates if you have them and the county or venue area. I will respond as soon as possible. A signed copy of the terms together with your deposit secures the date.",
+    "testimonial": ""
+  },
+  "brand": {
+    "colours": [
+      "#0c1a2e",
+      "#152a45",
+      "#070f1c",
+      "#8b1538",
+      "#a61d45",
+      "#b91c3c",
+      "#c9a227",
+      "#f4f6fa",
+      "#eef1f7",
+      "#0f172a",
+      "#5c6578",
+      "navy",
+      "burgundy",
+      "ruby",
+      "gold",
+      "warm off-white"
+    ],
+    "typography": [
+      "Cormorant Garamond",
+      "Inter",
+      "serif display headings",
+      "clean sans-serif body copy"
+    ],
+    "visualMotifs": [
+      "4px ruby section top stripe",
+      "navy hero sections",
+      "burgundy and ruby accent borders",
+      "champagne gold highlights",
+      "soft atmospheric gradients",
+      "background hero video",
+      "scroll-linked parallax",
+      "editorial ceremony photography",
+      "rounded cards and panels",
+      "broken grid layouts",
+      "soft navy-tinted overlays",
+      "gold left-border detail lines"
+    ],
+    "tone": "Warm, personable, calm, organised and contemporary. The copy should feel genuine and approachable, with a fresh celebrant voice that still feels respectful for weddings, funerals and family ceremonies.",
+    "mustAvoid": [
+      "Do not use pictures of priests.",
+      "Do not use em dashes unless supplied in client copy.",
+      "Use British English spelling.",
+      "Avoid making the site feel generic or overly templated.",
+      "Avoid implying legal marriage registration is included unless explicitly stated.",
+      "Do not present decorative icons, favicons or hearts as accreditation badges.",
+      "Avoid AI-generated images of a celebrant pretending to be Alex."
+    ]
+  },
+  "assets": {
+    "logos": [
+      "public/images/white-alex-jeal-logo.png"
+    ],
+    "portraits": [
+      "public/images/alex/alex-01.jpg",
+      "public/images/alex/alex-02.jpg",
+      "public/images/alex/alex-03.jpg",
+      "public/images/alex/alex-04.jpg",
+      "public/images/alex/alex-05.jpg",
+      "public/images/alex/alex-06.jpg",
+      "public/images/alex/alex-07.jpg",
+      "public/images/alex/alex-08.jpg",
+      "public/images/alex/alex-09.jpg"
+    ],
+    "badges": [
+      "/Users/jack/tools/celebrant-print-generator/assets/apc/APC-seal.png",
+      "src/assets/apc-certified-celebrant-seal.png"
+    ],
+    "backgrounds": [
+      "public/images/stock/library-shelves.jpg",
+      "public/images/stock/notebook-paper.jpg",
+      "public/images/photo/hero-barn-ceremony.webp",
+      "public/images/photo/contact-desk.webp",
+      "public/images/photo/venue-barn-interior.webp",
+      "public/images/photo/venue-oast.webp",
+      "public/images/photo/evening-candles.webp",
+      "public/images/photo/evening-sparklers.webp"
+    ],
+    "ceremonyPhotos": [
+      "public/images/photo/wedding-garden.webp",
+      "public/images/photo/wedding-woodland.webp",
+      "public/images/photo/vow-coast.webp",
+      "public/images/photo/vow-marquee.webp",
+      "public/images/photo/vow-patio.webp",
+      "public/images/photo/funeral-chapel.webp",
+      "public/images/photo/funeral-detail.webp",
+      "public/images/photo/life-garden.webp",
+      "public/images/photo/life-hall.webp",
+      "public/images/photo/naming-garden.webp",
+      "public/images/photo/naming-home.webp",
+      "public/images/photo/naming-park.webp",
+      "public/images/photo/moments-dance.webp",
+      "public/images/photo/moments-guests.webp"
+    ],
+    "documents": [
+      "AGENTS.md",
+      "Project Delivery.md",
+      "README.md",
+      "src/data/siteContent.js",
+      "src/data/siteImages.js"
+    ]
+  }
+}

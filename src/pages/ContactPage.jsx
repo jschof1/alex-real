@@ -20,7 +20,7 @@ export default function ContactPage() {
           tone="burgundy"
           eyebrow="Contact"
           title="Tell me what you are planning"
-          subtitle="Share your ceremony type, preferred dates if you have them, and the county or venue area. I will respond as soon as I can."
+          subtitle="Share your ceremony type, preferred dates if you have them and the county or venue area. I will respond as soon as possible."
         />
       </PageHero>
 

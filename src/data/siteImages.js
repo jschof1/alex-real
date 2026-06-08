@@ -7,7 +7,7 @@ const p = (base) => `/images/photo/${base}.webp`;
 
 /** Per-service pools for cards and detail pages (2–4 variants each). */
 export const SERVICE_IMAGE_POOLS = {
-  weddings: [p("hero-barn-ceremony"), p("wedding-garden"), p("wedding-woodland")],
+  weddings: [p("hero-barn-ceremony"), p("wedding-woodland"), p("wedding-garden")],
   "vow-renewals": [p("vow-marquee"), p("vow-patio"), p("vow-coast")],
   funerals: [p("funeral-chapel"), p("funeral-detail"), p("life-garden"), p("life-hall")],
   naming: [p("naming-garden"), p("naming-home"), p("naming-park")],
@@ -40,9 +40,9 @@ export const ABOUT_PAGE_COLUMN_WIDE = p("venue-oast");
 export const CONTACT_PANEL = p("contact-desk");
 
 export const PROCESS_IMAGES = [
-  p("process-consult"),
+  "/images/photo/process-consult-libby.jpeg",
   p("process-messages"),
-  p("process-writing"),
+  "/images/photo/process-delivery-libby.jpeg",
   p("process-suppliers"),
   p("process-delivery"),
 ];

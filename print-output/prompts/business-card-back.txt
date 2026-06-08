@@ -1,0 +1,62 @@
+Create the BACK side of a professional UK celebrant business card.
+
+Print spec:
+- Landscape card.
+- Full artwork ratio: 91mm × 61mm including 3mm bleed on all edges.
+- Trim: 85mm × 55mm.
+
+Bleed and trimming (critical — printers cut away the outer edge):
+- This artwork must fill the entire rectangle edge-to-edge at 91mm × 61mm including bleed.
+- After printing, 3mm is trimmed off every side — that outer band is removed and must NOT contain any readable text, logos, faces, eyes, QR modules, badge lettering, or thin rules that matter; only uninterrupted background, bleed colour, or crop-friendly texture may extend there.
+- Extend backgrounds and large photographic fills fully into that outer 3mm so there is no white edge after cut.
+- Finished trim size after cutting is 85mm × 55mm. Everything important must stay at least 4mm INSIDE that cut line (measure inward from where the blade cuts, not from the centre of the sheet).
+- From the outer pixel edge of this image: keep all critical content at least 7mm inward (3mm bleed discard zone + 4mm safety inside trim). Do not place logos, QR codes, text blocks, eyes, or accreditation marks in the outer 7mm margin.
+
+Output must be a single flat print artwork, not a mockup and not photographed in a scene.
+Do not draw crop marks, bleed labels, measurement labels, fold labels, or visible printer guides.
+Follow the bleed and trimming instructions above exactly.
+Use clear, readable text. Do not invent extra phone numbers, email addresses, websites, accreditations, awards, prices, or legal claims.
+Use supplied brand/logo/portrait/badge/ceremony assets as references when available.
+If an accreditation badge reference image is supplied, reproduce only that exact supplied badge artwork. Do not redraw it, restyle it, simplify it, substitute a different badge, or invent APC branding from scratch.
+Never invent or substitute human faces. Any visible person must be clearly derived from the supplied portrait reference images for that artwork (same celebrant identity). Never use stock-photo people, generic faces, or unrelated likenesses.
+No fake placeholder text. No lorem ipsum.
+
+Contrast and legibility (mandatory):
+- Every logo element must read clearly against its immediate background: crests, shields, monograms, fine lines, and wordmarks included.
+- Never place dark-on-dark or light-on-light combinations that merge (for example navy crest on navy fields, burgundy on burgundy, white on cream). If brand colours would collide, use a contrasting backing panel, inner shape, subtle outer stroke/keyline, or swap to a light plate behind dark marks (or vice versa) so edges stay visible at print size.
+- Body text and small type must meet strong real-world contrast; avoid low-opacity grey on busy imagery unless backed by a solid or frosted panel.
+
+
+Brand direction:
+- Business/name: Alex Jeal Celebrant
+- Person: Alex Jeal
+- Role: Independent celebrant and wedding DJ
+- Tagline: Ceremonies with personality, warmth and a fresh approach.
+- Tone: Warm, personable, calm, organised and contemporary. The copy should feel genuine and approachable, with a fresh celebrant voice that still feels respectful for weddings, funerals and family ceremonies.
+- Colours: #0c1a2e, #152a45, #070f1c, #8b1538, #a61d45, #b91c3c, #c9a227, #f4f6fa, #eef1f7, #0f172a, #5c6578, navy, burgundy, ruby, gold, warm off-white
+- Typography: Cormorant Garamond, Inter, serif display headings, clean sans-serif body copy
+- Visual motifs: 4px ruby section top stripe, navy hero sections, burgundy and ruby accent borders, champagne gold highlights, soft atmospheric gradients, background hero video, scroll-linked parallax, editorial ceremony photography, rounded cards and panels, broken grid layouts, soft navy-tinted overlays, gold left-border detail lines
+- Must avoid: Do not use pictures of priests., Do not use em dashes unless supplied in client copy., Use British English spelling., Avoid making the site feel generic or overly templated., Avoid implying legal marriage registration is included unless explicitly stated., Do not present decorative icons, favicons or hearts as accreditation badges., Avoid AI-generated images of a celebrant pretending to be Alex.
+- Services: Wedding ceremonies • Vow renewals and anniversaries • Funerals and celebrations of life • Naming ceremonies • DJ hire
+Contact details:
+- Phone: 07572 036962
+- Email: alexjealcelebrant@gmail.com
+- Website: alexjealcelebrant.com
+- Area: South East England; Kent, Sussex, Surrey, and beyond
+- Instagram: @alexjealcelebrant
+
+Back content:
+- Name: "Alex Jeal"
+- Role: "Independent celebrant and wedding DJ"
+- Contact details exactly as supplied.
+- Website QR code, if supplied as reference image.
+- Key services: "Wedding ceremonies • Vow renewals and anniversaries • Funerals and celebrations of life • Naming ceremonies • DJ hire"
+- Portrait (required when portrait references are supplied): Include one clear printed photograph of the celebrant on this back. That photograph must be produced only from the supplied portrait reference image(s)—composite, crop, or mask as needed for layout, but the visible face, hair, and skin must remain recognisably the same person as in those references. Do not paint, redraw, beautify into a different likeness, or replace with another subject.
+- Certification/accreditation badge, if supplied. If an APC badge is supplied, include it as a small accreditation mark.
+
+Hard constraints:
+- No invented people: Do not generate any face, headshot, or body that is not clearly sourced from the supplied portrait reference images. No silhouettes of strangers, no stock models, no AI-imagined substitute portraits.
+- When placing the logo or crest, ensure the crest/shield and wordmark sit on a background with enough luminance contrast (use a light panel or keyline if the mark is dark on a dark field).
+
+Layout guidance:
+Balance one portrait with contact details and QR. Keep the portrait large enough to read at card size. Make contact details highly legible at real business card size. Keep the QR code clear, square, and scannable.

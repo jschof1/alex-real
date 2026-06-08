@@ -6,7 +6,7 @@ export const ALEX_GALLERY = [
   { id: "vows", caption: "Vow renewals and anniversaries" },
   { id: "funerals", caption: "Funerals and celebrations of life" },
   { id: "naming", caption: "Naming and family welcomes" },
-  { id: "dj", caption: "DJ hire and dancefloors" },
+  { id: "dj", caption: "DJ hire" },
   { id: "venues", caption: "Venues across the South East" },
   { id: "work", caption: "Alex at work", imgClassName: "object-top" },
   { id: "moments", caption: "Moments with couples and families" },
@@ -15,7 +15,7 @@ export const ALEX_GALLERY = [
 
 export const SITE = {
   businessName: "Alex Jeal Celebrant",
-  tagline: "Ceremonies with personality, warmth, and a fresh approach.",
+  tagline: "Ceremonies with personality, warmth and a fresh approach.",
   domain: "alexjealcelebrant.com",
   email: "alexjealcelebrant@gmail.com",
   phoneDisplay: "07572 036962",
@@ -57,7 +57,7 @@ export const ROUTE_META = {
 export const ABOUT = {
   intro: [
     "Hi, I'm Alex Jeal, an independent celebrant and wedding DJ based in the South East. I specialise in personalised wedding ceremonies, vow renewals, funerals and baby naming ceremonies, all delivered with a fresh approach that puts people, personality, and real connections at the heart of every service.",
-    "I regularly work with various venues from countryside barns and private homes to outdoor spaces and both licensed and non-licensed locations. No matter the setting, my focus is always on creating a ceremony that feels genuine, relaxed, traditional or contemporary but most importantly, truly personal.",
+    "I work with countryside barns, private homes, outdoor spaces and both licensed and non-licensed locations. No matter the setting, my focus is always on creating a ceremony that feels genuine, relaxed, traditional or contemporary but most importantly, truly personal.",
     "Much of my career has been spent working with people, planning events and delivering bespoke experiences. That background shapes the way I work as a professional celebrant, calm under pressure, well organised and approachable.",
   ],
   whyTitle: "Why Choose me as your Celebrant?",

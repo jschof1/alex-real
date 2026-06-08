@@ -1,0 +1,59 @@
+Create one isolated panel for a UK DL C-fold trifold brochure for a celebrant.
+
+This is NOT the full brochure side. Software will stitch this panel into the final full-bleed sheet, so do not draw neighbouring panels, fold guides, crop marks, labels, or measurement text.
+
+Panel print spec:
+- Side: outside.
+- Panel position left-to-right: 2 of 3.
+- Finished panel size from the printer PDF: 210mm × 99mm.
+- Generated panel artwork width: 99mm. Do not add left/right bleed to this panel width; the compositor adds the outer 3mm sheet bleed separately.
+- Panel artwork height: 216mm including top and bottom bleed.
+- Important text, logos, faces, QR codes, and badges must stay at least 12mm inside trim and away from fold edges.
+
+
+Output must be a single flat print artwork, not a mockup and not photographed in a scene.
+Do not draw crop marks, bleed labels, measurement labels, fold labels, or visible printer guides.
+Follow the bleed and trimming instructions above exactly.
+Use clear, readable text. Do not invent extra phone numbers, email addresses, websites, accreditations, awards, prices, or legal claims.
+Use supplied brand/logo/portrait/badge/ceremony assets as references when available.
+If an accreditation badge reference image is supplied, reproduce only that exact supplied badge artwork. Do not redraw it, restyle it, simplify it, substitute a different badge, or invent APC branding from scratch.
+Never invent or substitute human faces. Any visible person must be clearly derived from the supplied portrait reference images for that artwork (same celebrant identity). Never use stock-photo people, generic faces, or unrelated likenesses.
+No fake placeholder text. No lorem ipsum.
+
+Contrast and legibility (mandatory):
+- Every logo element must read clearly against its immediate background: crests, shields, monograms, fine lines, and wordmarks included.
+- Never place dark-on-dark or light-on-light combinations that merge (for example navy crest on navy fields, burgundy on burgundy, white on cream). If brand colours would collide, use a contrasting backing panel, inner shape, subtle outer stroke/keyline, or swap to a light plate behind dark marks (or vice versa) so edges stay visible at print size.
+- Body text and small type must meet strong real-world contrast; avoid low-opacity grey on busy imagery unless backed by a solid or frosted panel.
+
+
+Brand direction:
+- Business/name: Alex Jeal Celebrant
+- Person: Alex Jeal
+- Role: Independent celebrant and wedding DJ
+- Tagline: Ceremonies with personality, warmth and a fresh approach.
+- Tone: Warm, personable, calm, organised and contemporary. The copy should feel genuine and approachable, with a fresh celebrant voice that still feels respectful for weddings, funerals and family ceremonies.
+- Colours: #0c1a2e, #152a45, #070f1c, #8b1538, #a61d45, #b91c3c, #c9a227, #f4f6fa, #eef1f7, #0f172a, #5c6578, navy, burgundy, ruby, gold, warm off-white
+- Typography: Cormorant Garamond, Inter, serif display headings, clean sans-serif body copy
+- Visual motifs: 4px ruby section top stripe, navy hero sections, burgundy and ruby accent borders, champagne gold highlights, soft atmospheric gradients, background hero video, scroll-linked parallax, editorial ceremony photography, rounded cards and panels, broken grid layouts, soft navy-tinted overlays, gold left-border detail lines
+- Must avoid: Do not use pictures of priests., Do not use em dashes unless supplied in client copy., Use British English spelling., Avoid making the site feel generic or overly templated., Avoid implying legal marriage registration is included unless explicitly stated., Do not present decorative icons, favicons or hearts as accreditation badges., Avoid AI-generated images of a celebrant pretending to be Alex.
+- Services: Wedding ceremonies • Vow renewals and anniversaries • Funerals and celebrations of life • Naming ceremonies • DJ hire
+Contact details:
+- Phone: 07572 036962
+- Email: alexjealcelebrant@gmail.com
+- Website: alexjealcelebrant.com
+- Area: South East England; Kent, Sussex, Surrey, and beyond
+- Instagram: @alexjealcelebrant
+
+Panel role: CENTRE PANEL / back cover (99mm trim panel).
+- Smaller logo.
+- If an APC/accreditation badge is provided, include it clearly.
+- If APC badge is used, the primary heading above it must read exactly: "Trained & Certified By".
+- QR code to the website.
+- Contact details exactly as supplied: phone, email, website, area.
+- Visual direction: clean contact and accreditation panel. Do not include portraits, ceremony photographs, or decorative photo collages.
+
+Composition:
+- Design this as a complete standalone vertical brochure panel.
+- This panel must look visually distinct from the other panels. Do not repeat the same photo, portrait, hero composition, or copy block from another panel.
+- Backgrounds must extend to every edge of this panel.
+- Do not create equal thirds or a full trifold layout. Only create this one panel.
