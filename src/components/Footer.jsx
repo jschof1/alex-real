@@ -94,7 +94,7 @@ export default function Footer() {
             <a href="https://unsplash.com/license" target="_blank" rel="noopener noreferrer" className="underline hover:text-white/50">
               Unsplash
             </a>
-            . All ceremony and portrait photography is from Alex&apos;s own supplied images.
+            .
           </p>
         </div>
       </div>
